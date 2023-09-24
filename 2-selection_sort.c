@@ -34,13 +34,13 @@ void selection_sort(int *array, size_t size)
 	for (j = 0; j < size - 1; j++)
 	{
 		min = array + j;
-		for (n = j + 1; k < size; k++)
+		for (k = j + 1; k < size; k++)
 			min = (array[k] < *min) ? (array + k) : min;
 
 		if ((array + j) != min)
 		{
 			swap_ints(array + j, min);
-			print_array(aray, size);
+			print_array(array, size);
 		}
 	}
 }
