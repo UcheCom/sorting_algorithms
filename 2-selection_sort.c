@@ -1,18 +1,19 @@
 #include "sort.h"
 
+
 /**
  * swap_ints - this function swaps two integers
  * @d: first integer
  * @e: second integer
  */
 
-void swap_ints(int *d, int *e)
+void swap_ints(int *a, int *b)
 {
 	int tmp;
 
-	tmp = *d;
-	*d = *e;
-	*e = tmp;
+	tmp = *a;
+	*a = *b;
+	*b = tmp;
 }
 
 /**
