@@ -30,3 +30,5 @@
 | 1. Insertion sort | [1-O](./) |
 | 2. Selection sort | [2-O](./) |
 | 3. Quick sort | [3-O](./) |
+| 100. Shell sort | [NA](./) |
+| 101. Cocktail sort | [101-O](./) |
