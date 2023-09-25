@@ -3,7 +3,7 @@
 /**
  * swap_nodes - this function swaps two nodes of a doubly
  * linked list
- * @h: head pointeer
+ * @h: head pointer
  * @n1: first node pointer
  * @n2: second node pointer
  */
