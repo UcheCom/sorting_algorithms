@@ -39,6 +39,8 @@ void print_list(const listint_t *list);
 void q_sort(int *arr, int smal, int big, size_t size);
 int lomuto_partition(int *arr, int smal, int big, size_t size);
 void _swapnodes(listint_t **list, listint_t *x, listint_t *y);
+void merge_sorted_arrays(int *array, int *tmp, size_t l, size_t m, size_t r);
+void merge_sort_recursion(int *array, int *tmp, size_t l, size_t r);
 
 /* sorting algorithms */
 void bubble_sort(int *array, size_t size);
