@@ -32,3 +32,5 @@
 | 3. Quick sort | [3-O](./) |
 | 100. Shell sort | [NA](./) |
 | 101. Cocktail sort | [101-O](./) |
+| 102. Counting sort | [102-O](./) |
+| 103. Merge sort | [103-O](./) |
