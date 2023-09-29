@@ -36,3 +36,6 @@
 | 103. Merge sort | [103-O](./) |
 | 104. Heap sort | [104-O](./) |
 | 105. Radix sort | [NA](./) |
+| 106. Bitonic sort | [106-O](./) |
+| 107. Quick Sort - Hoare sort | [107-O](./) |
+| 1000. Sort deck | [deck.h](./) |
