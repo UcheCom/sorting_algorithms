@@ -44,6 +44,12 @@ void merge_sort_recursion(int *array, int *tmp, size_t l, size_t r);
 void heap_set(int *array, size_t hp, size_t r, size_t size);
 void _countingsort(int *array, size_t size, int lsd);
 int _getmax(int *array, size_t size);
+void bi_sort(int *array, size_t size, int flo, size_t bi_size);
+void bi_merge(int *array, size_t size, int flo, size_t bi_size);
+void qsort_hoare(int *array, int smal, int big, size_t size);
+int hoare_part(int *array, int smal, int big, size_t size);
+void swap(int *x, int *y);
+
 
 /* sorting algorithms */
 void bubble_sort(int *array, size_t size);
@@ -58,5 +64,9 @@ void counting_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
 void heap_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
+void bitonic_sort(int *array, size_t size);
+void quick_sort_hoare(int *array, size_t size);
+
+
 
 #endif
